@@ -1,4 +1,4 @@
-# 🎯 RecoilForge
+# 🎯 FocusRecoil
 
 **Herramienta avanzada para control automático de recoil en juegos de disparos**  
 Creada para ofrecer precisión y personalización en tu puntería.
