@@ -1,42 +1,47 @@
-# FocusRecoil
+# 🎯 RecoilForge
 
-Herramienta avanzada para controlar el recoil automático en juegos de disparos. Implementada en Python con una interfaz gráfica amigable y funcionalidades integradas para una experiencia eficiente y personalizable.
+**Herramienta avanzada para control automático de recoil en juegos de disparos**  
+Creada para ofrecer precisión y personalización en tu puntería.
 
 ---
 
-## Características principales
+## 🚀 Características principales
 
-- **Simulación realista de recoil:**  
-  Algoritmo no lineal que calcula la fuerza del recoil basada en un slider ajustable para simular el retroceso natural de las armas.
+- 🎛️ **Simulación realista de recoil:**  
+  Algoritmo avanzado para ajustar la fuerza del recoil con un slider no lineal, logrando una experiencia natural.
 
-- **Control preciso del mouse a nivel sistema:**  
-  Usa llamadas nativas de Windows para mover el cursor con alta precisión y compatibilidad con juegos.
+- 🖱️ **Control preciso del mouse:**  
+  Movimiento fino del cursor usando llamadas nativas de Windows para máxima compatibilidad con juegos.
 
-- **Escucha global de mouse y teclado:**  
-  Detecta pulsaciones del botón izquierdo del mouse y tecla activadora configurada para activar/desactivar el recoil.
+- ⌨️ **Escucha global de mouse y teclado:**  
+  Detecta disparos y permite asignar una tecla activadora personalizada para controlar el recoil.
 
-- **Restricción a ventana específica:**  
-  Solo activa recoil cuando la ventana objetivo está en primer plano, evitando interferencias en otras apps.
+- 🖥️ **Restricción a ventana específica:**  
+  Aplica recoil solo cuando la ventana del juego seleccionada está activa.
 
-- **Interfaz gráfica funcional y amigable:**  
-  - Slider para ajustar fuerza del recoil.  
-  - Botón para asignar tecla activadora personalizada.  
+- 🎨 **Interfaz gráfica amigable:**  
+  - Slider para ajustar fuerza.  
+  - Asignar tecla activadora.  
   - Selector de ventana objetivo.  
-  - Indicador flotante movible que muestra el estado ON/OFF.  
-  - Minimización a la bandeja con icono dinámico que refleja estado.
+  - Indicador flotante movible ON/OFF.  
+  - Minimización a bandeja con icono dinámico.
 
-- **Multihilos para mejor rendimiento:**  
-  Ejecuta escuchas y GUI en paralelo para mantener la app responsiva.
+- ⚙️ **Multihilos para rendimiento óptimo:**  
+  Escucha y GUI funcionando simultáneamente para máxima fluidez.
+
+
+-FocusRecoil.py por si quieren modificarle añadirle o modificarlo algo al codigo
+
+-FocusRecoil.exe para ejecutar con administrador y funcione en juegos
 
 ---
 
-## Requisitos
+## 📋 Requisitos
 
-- Python 3.11
-- Windows (por el uso de API Win32)  
-- Paquetes Python:  
-  - `pynput`  
-  - `pystray`  
-  - `Pillow`  
-  - `pywin32`  
+- Python 3.7+  
+- Windows  
+- Paquetes:  
+  pip install pynput pystray pillow pywin32
 
+  Creado con ayuda de IA
+Este proyecto fue desarrollado con la asistencia de inteligencia artificial para optimizar código y mejorar la experiencia del usuario.
